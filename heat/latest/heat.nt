@@ -1,0 +1,221 @@
+<https://w3id.org/heat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/heat> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/heat/1.0.0> .
+<https://w3id.org/heat> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0001-9962-7193> .
+<https://w3id.org/heat> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-9066-1229> .
+<https://w3id.org/heat> <http://purl.org/dc/terms/issued> "2025-11-17" .
+<https://w3id.org/heat> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://w3id.org/heat> <http://purl.org/dc/terms/publisher> <https://ror.org/046bfkz44> .
+<https://w3id.org/heat> <http://purl.org/dc/terms/title> "Human Evaluation and Assessment Tools (HEAT) Ontology" .
+<https://w3id.org/heat> <http://purl.org/ontology/bibo/status> "Published Ontology"@en .
+<https://w3id.org/heat> <http://purl.org/vocab/vann/preferredNamespacePrefix> "heat" .
+<https://w3id.org/heat> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/heat#" .
+<https://w3id.org/heat> <http://www.w3.org/2000/01/rdf-schema#label> "Human Evaluation and Assessment Tools (HEAT) Ontology" .
+<https://w3id.org/heat> <http://www.w3.org/2002/07/owl#versionInfo> "1.0.0" .
+<https://w3id.org/heat> <https://schema.org/citation> "Azzini, A., Celino, I. (2025). Human Evaluation and Assessment Tools (HEAT) Ontology." .
+<https://w3id.org/heat> <https://schema.org/funding> <https://doi.org/10.3030/101120323> .
+<https://w3id.org/heat> <https://w3id.org/mod#createdWith> <https://chowlk.linkeddata.es/> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/status
+<http://purl.org/ontology/bibo/status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#label
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#versionIRI
+<http://www.w3.org/2002/07/owl#versionIRI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2002/07/owl#versionInfo
+<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/citation
+<https://schema.org/citation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://schema.org/funding
+<https://schema.org/funding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://w3id.org/mod#createdWith
+<https://w3id.org/mod#createdWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/isReferencedBy
+<http://purl.org/dc/terms/isReferencedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/dc/terms/isReferencedBy> <http://www.w3.org/2000/01/rdf-schema#label> "is referenced by" .
+# 
+# http://www.w3.org/ns/prov#wasDerivedFrom
+<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/prov#wasDerivedFrom> <http://www.w3.org/2000/01/rdf-schema#label> "was derived from" .
+# 
+# https://w3id.org/heat#hasConstruct
+<https://w3id.org/heat#hasConstruct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/heat#hasConstruct> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/heat#Tool> .
+<https://w3id.org/heat#hasConstruct> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/heat#Construct> .
+<https://w3id.org/heat#hasConstruct> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links a Tool to its Construct."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/heat#hasConstruct> <http://www.w3.org/2000/01/rdf-schema#label> "has construct" .
+# 
+# https://w3id.org/heat#hasContext
+<https://w3id.org/heat#hasContext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/heat#hasContext> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/heat#Tool> .
+<https://w3id.org/heat#hasContext> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/heat#Context> .
+<https://w3id.org/heat#hasContext> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links a Tool to its Context."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/heat#hasContext> <http://www.w3.org/2000/01/rdf-schema#label> "has context" .
+# 
+# https://w3id.org/heat#hasLikertAnswer
+<https://w3id.org/heat#hasLikertAnswer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/heat#hasLikertAnswer> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/survey-ontology#Question> .
+<https://w3id.org/heat#hasLikertAnswer> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/heat#LikertAnswer> .
+<https://w3id.org/heat#hasLikertAnswer> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links a Question to its Likert Answer."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/heat#hasLikertAnswer> <http://www.w3.org/2000/01/rdf-schema#label> "has likert answer" .
+# 
+# https://w3id.org/heat#hasQuestion
+<https://w3id.org/heat#hasQuestion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/heat#hasQuestion> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/heat#Construct> .
+<https://w3id.org/heat#hasQuestion> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/survey-ontology#Question> .
+<https://w3id.org/heat#hasQuestion> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links a Construct to its Question."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/heat#hasQuestion> <http://www.w3.org/2000/01/rdf-schema#label> "has question" .
+# 
+# https://w3id.org/heat#refersToGeneralConstruct
+<https://w3id.org/heat#refersToGeneralConstruct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/heat#refersToGeneralConstruct> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/heat#Construct> .
+<https://w3id.org/heat#refersToGeneralConstruct> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/heat#GeneralConstruct> .
+<https://w3id.org/heat#refersToGeneralConstruct> <http://www.w3.org/2000/01/rdf-schema#comment> "This property links a Construct to its General Construct."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/heat#refersToGeneralConstruct> <http://www.w3.org/2000/01/rdf-schema#label> "refers to general construct" .
+# 
+# https://w3id.org/heat#refersToTheory
+<https://w3id.org/heat#refersToTheory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/heat#refersToTheory> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/heat#Tool> .
+<https://w3id.org/heat#refersToTheory> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/heat#ReferenceTheory> .
+<https://w3id.org/heat#refersToTheory> <http://www.w3.org/2000/01/rdf-schema#label> "refers to theory" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/heat#hasModelDiagram
+<https://w3id.org/heat#hasModelDiagram> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/heat#hasModelDiagram> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/heat#Tool> .
+<https://w3id.org/heat#hasModelDiagram> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://w3id.org/heat#hasModelDiagram> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents the reference to the tool's graphical visualisation."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/heat#hasModelDiagram> <http://www.w3.org/2000/01/rdf-schema#label> "has model diagram" .
+# 
+# https://w3id.org/heat#isOriginal
+<https://w3id.org/heat#isOriginal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/heat#isOriginal> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/heat#Tool> .
+<https://w3id.org/heat#isOriginal> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/heat#isOriginal> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents whether a tool is validated as a standard, i.e. whose constructs and questions have not been defined based on another reference tool, or not."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/heat#isOriginal> <http://www.w3.org/2000/01/rdf-schema#label> "is original" .
+# 
+# https://w3id.org/heat#isScaleReversed
+<https://w3id.org/heat#isScaleReversed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/heat#isScaleReversed> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/heat#LikertAnswer> .
+<https://w3id.org/heat#isScaleReversed> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://w3id.org/heat#isScaleReversed> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents a Likert Answer whose meaning is reversed compared to the meaning of a construct, in the measurement or evaluation of a specific aspect."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/heat#isScaleReversed> <http://www.w3.org/2000/01/rdf-schema#label> "is scale reversed" .
+# 
+# https://w3id.org/heat#numericalValueRange
+<https://w3id.org/heat#numericalValueRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/heat#numericalValueRange> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/heat#LikertAnswer> .
+<https://w3id.org/heat#numericalValueRange> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/heat#numericalValueRange> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents an ordered numerical range in which a Likert Answer is defined."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/heat#numericalValueRange> <http://www.w3.org/2000/01/rdf-schema#label> "numerical value range" .
+# 
+# https://w3id.org/heat#textualValueRange
+<https://w3id.org/heat#textualValueRange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/heat#textualValueRange> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/heat#LikertAnswer> .
+<https://w3id.org/heat#textualValueRange> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://w3id.org/heat#textualValueRange> <http://www.w3.org/2000/01/rdf-schema#comment> "This property represents an ordered textual range in which a Likert Answer is defined."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/heat#textualValueRange> <http://www.w3.org/2000/01/rdf-schema#label> "textual value range" .
+# 
+# https://w3id.org/survey-ontology#questionText
+<https://w3id.org/survey-ontology#questionText> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/survey-ontology#questionText> <http://www.w3.org/2000/01/rdf-schema#label> "question text" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/ontology/bibo/Document
+<http://purl.org/ontology/bibo/Document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/ontology/bibo/Document> <http://www.w3.org/2000/01/rdf-schema#label> "Document" .
+# 
+# https://w3id.org/heat#Construct
+<https://w3id.org/heat#Construct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/heat#Construct> <http://www.w3.org/2000/01/rdf-schema#comment> "A Construct is a concept defined to represent specific attributes in a given context. A construct is defined by a series of questions used to measure and evaluate these specific aspects quantitatively."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/heat#Construct> <http://www.w3.org/2000/01/rdf-schema#label> "Construct" .
+# 
+# https://w3id.org/heat#Context
+<https://w3id.org/heat#Context> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/heat#Context> <http://www.w3.org/2000/01/rdf-schema#comment> "A Context is the specific environment, application domain, or scenario in which a tool or a construct is applied, providing the situational framework that influences how concepts are interpreted, measured, and utilized."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/heat#Context> <http://www.w3.org/2000/01/rdf-schema#label> "Context" .
+# 
+# https://w3id.org/heat#GeneralConstruct
+<https://w3id.org/heat#GeneralConstruct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/heat#GeneralConstruct> <http://www.w3.org/2000/01/rdf-schema#comment> "A General Construct is a generalised concept that serves as a reference point for aggregating all related constructs from different tools, enabling the systematic organisation and comparison of equivalent constructs in different contexts."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/heat#GeneralConstruct> <http://www.w3.org/2000/01/rdf-schema#label> "General Construct" .
+# 
+# https://w3id.org/heat#LikertAnswer
+<https://w3id.org/heat#LikertAnswer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/heat#LikertAnswer> <http://www.w3.org/2000/01/rdf-schema#comment> "A Likert Answer is a subjective response format in which a user selects a point on an ordered categorical scale to indicate the intensity or extent of his/her perception, evaluation, or experience regarding a given item."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/heat#LikertAnswer> <http://www.w3.org/2000/01/rdf-schema#label> "Likert Answer" .
+# 
+# https://w3id.org/heat#ReferenceTheory
+<https://w3id.org/heat#ReferenceTheory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/heat#ReferenceTheory> <http://www.w3.org/2000/01/rdf-schema#comment> "A Reference Theory is a standardized, conceptual theory that aggregates related tools, models, or variants under a unified theoretical structure. It serves as the canonical reference point to which all specific implementations or adaptations (tools/models) are linked."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/heat#ReferenceTheory> <http://www.w3.org/2000/01/rdf-schema#label> "Reference Theory" .
+# 
+# https://w3id.org/heat#Tool
+<https://w3id.org/heat#Tool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/heat#Tool> <http://www.w3.org/2000/01/rdf-schema#comment> "A Tool is a structured conceptual system that explains phenomena by specifying key constructs and the relationships between them; each tool is defined by a set of constructs, which are defined through a series of measurement elements (questions) that allow for an objective evaluation of the phenomenon analysed by the tool."^^<http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://w3id.org/heat#Tool> <http://www.w3.org/2000/01/rdf-schema#label> "Tool" .
+# 
+# https://w3id.org/survey-ontology#Question
+<https://w3id.org/survey-ontology#Question> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/survey-ontology#Question> <http://www.w3.org/2000/01/rdf-schema#label> "Question" .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

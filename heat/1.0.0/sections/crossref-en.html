@@ -1,0 +1,430 @@
+<h2 id="crossreference" class="list">Cross-reference for Human Evaluation and Assessment Tools (HEAT) Ontology classes, object properties and data properties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+This section provides details for each class and property defined by Human Evaluation and Assessment Tools (HEAT) Ontology.
+<div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="classes">
+ <h3 id="classes-headline" class="list">Classes</h3>
+ <ul class="hlist">
+  <li><a href="#Construct" title="https://w3id.org/heat#Construct">Construct</a></li>
+  <li><a href="#Context" title="https://w3id.org/heat#Context">Context</a></li>
+  <li><a href="#http://purl.org/ontology/bibo/Document" title="http://purl.org/ontology/bibo/Document">Document</a></li>
+  <li><a href="#GeneralConstruct" title="https://w3id.org/heat#GeneralConstruct">General Construct</a></li>
+  <li><a href="#LikertAnswer" title="https://w3id.org/heat#LikertAnswer">Likert Answer</a></li>
+  <li><a href="#https://w3id.org/survey-ontology#Question" title="https://w3id.org/survey-ontology#Question">Question</a></li>
+  <li><a href="#ReferenceTheory" title="https://w3id.org/heat#ReferenceTheory">Reference Theory</a></li>
+  <li><a href="#Tool" title="https://w3id.org/heat#Tool">Tool</a></li>
+ </ul>
+ <div class="entity" id="Construct">
+  <h3>Construct<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://w3id.org/heat#Construct</p>
+  <div class="comment">
+   <span class="markdown">A Construct is a concept defined to represent specific attributes in a given context. A construct is defined by a series of questions used to measure and evaluate these specific aspects quantitatively.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    is in domain of
+   </dt>
+   <dd>
+    <a href="#hasQuestion" title="https://w3id.org/heat#hasQuestion">has question</a> <sup class="type-op" title="object property">op</sup>, <a href="#refersToGeneralConstruct" title="https://w3id.org/heat#refersToGeneralConstruct">refers to general construct</a> <sup class="type-op" title="object property">op</sup>
+   </dd>
+   <dt>
+    is in range of
+   </dt>
+   <dd>
+    <a href="#hasConstruct" title="https://w3id.org/heat#hasConstruct">has construct</a> <sup class="type-op" title="object property">op</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="Context">
+  <h3>Context<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://w3id.org/heat#Context</p>
+  <div class="comment">
+   <span class="markdown">A Context is the specific environment, application domain, or scenario in which a tool or a construct is applied, providing the situational framework that influences how concepts are interpreted, measured, and utilized.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    is in range of
+   </dt>
+   <dd>
+    <a href="#hasContext" title="https://w3id.org/heat#hasContext">has context</a> <sup class="type-op" title="object property">op</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="http://purl.org/ontology/bibo/Document">
+  <h3>Document<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://purl.org/ontology/bibo/Document</p>
+ </div>
+ <div class="entity" id="GeneralConstruct">
+  <h3>General Construct<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://w3id.org/heat#GeneralConstruct</p>
+  <div class="comment">
+   <span class="markdown">A General Construct is a generalised concept that serves as a reference point for aggregating all related constructs from different tools, enabling the systematic organisation and comparison of equivalent constructs in different contexts.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    is in range of
+   </dt>
+   <dd>
+    <a href="#refersToGeneralConstruct" title="https://w3id.org/heat#refersToGeneralConstruct">refers to general construct</a> <sup class="type-op" title="object property">op</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="LikertAnswer">
+  <h3>Likert Answer<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://w3id.org/heat#LikertAnswer</p>
+  <div class="comment">
+   <span class="markdown">A Likert Answer is a subjective response format in which a user selects a point on an ordered categorical scale to indicate the intensity or extent of his/her perception, evaluation, or experience regarding a given item.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    is in domain of
+   </dt>
+   <dd>
+    <a href="#isScaleReversed" title="https://w3id.org/heat#isScaleReversed">is scale reversed</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#numericalValueRange" title="https://w3id.org/heat#numericalValueRange">numerical value range</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#textualValueRange" title="https://w3id.org/heat#textualValueRange">textual value range</a> <sup class="type-dp" title="data property">dp</sup>
+   </dd>
+   <dt>
+    is in range of
+   </dt>
+   <dd>
+    <a href="#hasLikertAnswer" title="https://w3id.org/heat#hasLikertAnswer">has likert answer</a> <sup class="type-op" title="object property">op</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="https://w3id.org/survey-ontology#Question">
+  <h3>Question<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://w3id.org/survey-ontology#Question</p>
+  <dl class="description">
+   <dt>
+    is in domain of
+   </dt>
+   <dd>
+    <a href="#hasLikertAnswer" title="https://w3id.org/heat#hasLikertAnswer">has likert answer</a> <sup class="type-op" title="object property">op</sup>
+   </dd>
+   <dt>
+    is in range of
+   </dt>
+   <dd>
+    <a href="#hasQuestion" title="https://w3id.org/heat#hasQuestion">has question</a> <sup class="type-op" title="object property">op</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="ReferenceTheory">
+  <h3>Reference Theory<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://w3id.org/heat#ReferenceTheory</p>
+  <div class="comment">
+   <span class="markdown">A Reference Theory is a standardized, conceptual theory that aggregates related tools, models, or variants under a unified theoretical structure. It serves as the canonical reference point to which all specific implementations or adaptations (tools/models) are linked.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    is in range of
+   </dt>
+   <dd>
+    <a href="#refersToTheory" title="https://w3id.org/heat#refersToTheory">refers to theory</a> <sup class="type-op" title="object property">op</sup>
+   </dd>
+  </dl>
+ </div>
+ <div class="entity" id="Tool">
+  <h3>Tool<sup class="type-c" title="class">c</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://w3id.org/heat#Tool</p>
+  <div class="comment">
+   <span class="markdown">A Tool is a structured conceptual system that explains phenomena by specifying key constructs and the relationships between them; each tool is defined by a set of constructs, which are defined through a series of measurement elements (questions) that allow for an objective evaluation of the phenomenon analysed by the tool.</span>
+  </div>
+  <dl class="description">
+   <dt>
+    is in domain of
+   </dt>
+   <dd>
+    <a href="#hasConstruct" title="https://w3id.org/heat#hasConstruct">has construct</a> <sup class="type-op" title="object property">op</sup>, <a href="#hasContext" title="https://w3id.org/heat#hasContext">has context</a> <sup class="type-op" title="object property">op</sup>, <a href="#hasModelDiagram" title="https://w3id.org/heat#hasModelDiagram">has model diagram</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#isOriginal" title="https://w3id.org/heat#isOriginal">is original</a> <sup class="type-dp" title="data property">dp</sup>, <a href="#refersToTheory" title="https://w3id.org/heat#refersToTheory">refers to theory</a> <sup class="type-op" title="object property">op</sup>
+   </dd>
+  </dl>
+ </div>
+</div><div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="objectproperties">
+ <h3 id="properties" class="list">Object Properties</h3>
+ <ul class="hlist">
+  <li><a href="#hasConstruct" title="https://w3id.org/heat#hasConstruct">has construct</a></li>
+  <li><a href="#hasContext" title="https://w3id.org/heat#hasContext">has context</a></li>
+  <li><a href="#hasLikertAnswer" title="https://w3id.org/heat#hasLikertAnswer">has likert answer</a></li>
+  <li><a href="#hasQuestion" title="https://w3id.org/heat#hasQuestion">has question</a></li>
+  <li><a href="#http://purl.org/dc/terms/isReferencedBy" title="http://purl.org/dc/terms/isReferencedBy">is referenced by</a></li>
+  <li><a href="#refersToGeneralConstruct" title="https://w3id.org/heat#refersToGeneralConstruct">refers to general construct</a></li>
+  <li><a href="#refersToTheory" title="https://w3id.org/heat#refersToTheory">refers to theory</a></li>
+  <li><a href="#http://www.w3.org/ns/prov#wasDerivedFrom" title="http://www.w3.org/ns/prov#wasDerivedFrom">was derived from</a></li>
+ </ul>
+ <div class="entity" id="hasConstruct">
+  <h3>has construct<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://w3id.org/heat#hasConstruct</p>
+  <div class="comment">
+   <span class="markdown">This property links a Tool to its Construct.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#Tool" title="https://w3id.org/heat#Tool">Tool</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="#Construct" title="https://w3id.org/heat#Construct">Construct</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <div class="entity" id="hasContext">
+  <h3>has context<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://w3id.org/heat#hasContext</p>
+  <div class="comment">
+   <span class="markdown">This property links a Tool to its Context.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#Tool" title="https://w3id.org/heat#Tool">Tool</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="#Context" title="https://w3id.org/heat#Context">Context</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <div class="entity" id="hasLikertAnswer">
+  <h3>has likert answer<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://w3id.org/heat#hasLikertAnswer</p>
+  <div class="comment">
+   <span class="markdown">This property links a Question to its Likert Answer.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#https://w3id.org/survey-ontology#Question" title="https://w3id.org/survey-ontology#Question">Question</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="#LikertAnswer" title="https://w3id.org/heat#LikertAnswer">Likert Answer</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <div class="entity" id="hasQuestion">
+  <h3>has question<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://w3id.org/heat#hasQuestion</p>
+  <div class="comment">
+   <span class="markdown">This property links a Construct to its Question.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#Construct" title="https://w3id.org/heat#Construct">Construct</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="#https://w3id.org/survey-ontology#Question" title="https://w3id.org/survey-ontology#Question">Question</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <div class="entity" id="http://purl.org/dc/terms/isReferencedBy">
+  <h3>is referenced by<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://purl.org/dc/terms/isReferencedBy</p>
+ </div>
+ <div class="entity" id="refersToGeneralConstruct">
+  <h3>refers to general construct<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://w3id.org/heat#refersToGeneralConstruct</p>
+  <div class="comment">
+   <span class="markdown">This property links a Construct to its General Construct.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#Construct" title="https://w3id.org/heat#Construct">Construct</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="#GeneralConstruct" title="https://w3id.org/heat#GeneralConstruct">General Construct</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <div class="entity" id="refersToTheory">
+  <h3>refers to theory<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://w3id.org/heat#refersToTheory</p>
+  <div class="description">
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#Tool" title="https://w3id.org/heat#Tool">Tool</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="#ReferenceTheory" title="https://w3id.org/heat#ReferenceTheory">Reference Theory</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <div class="entity" id="http://www.w3.org/ns/prov#wasDerivedFrom">
+  <h3>was derived from<sup class="type-op" title="object property">op</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> http://www.w3.org/ns/prov#wasDerivedFrom</p>
+ </div>
+</div><div xmlns:widoco="https://w3id.org/widoco/vocab#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="dataproperties">
+ <h3 id="dataproperties-headline" class="list">Data Properties</h3>
+ <ul class="hlist">
+  <li><a href="#hasModelDiagram" title="https://w3id.org/heat#hasModelDiagram">has model diagram</a></li>
+  <li><a href="#isOriginal" title="https://w3id.org/heat#isOriginal">is original</a></li>
+  <li><a href="#isScaleReversed" title="https://w3id.org/heat#isScaleReversed">is scale reversed</a></li>
+  <li><a href="#numericalValueRange" title="https://w3id.org/heat#numericalValueRange">numerical value range</a></li>
+  <li><a href="#https://w3id.org/survey-ontology#questionText" title="https://w3id.org/survey-ontology#questionText">question text</a></li>
+  <li><a href="#textualValueRange" title="https://w3id.org/heat#textualValueRange">textual value range</a></li>
+ </ul>
+ <div class="entity" id="hasModelDiagram">
+  <h3>has model diagram<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://w3id.org/heat#hasModelDiagram</p>
+  <div class="comment">
+   <span class="markdown">This property represents the reference to the tool's graphical visualisation.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#Tool" title="https://w3id.org/heat#Tool">Tool</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="http://www.w3.org/2001/XMLSchema#anyURI" target="_blank" title="http://www.w3.org/2001/XMLSchema#anyURI">any U R I</a>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <div class="entity" id="isOriginal">
+  <h3>is original<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://w3id.org/heat#isOriginal</p>
+  <div class="comment">
+   <span class="markdown">This property represents whether a tool is validated as a standard, i.e. whose constructs and questions have not been defined based on another reference tool, or not.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#Tool" title="https://w3id.org/heat#Tool">Tool</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="http://www.w3.org/2001/XMLSchema#boolean" target="_blank" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <div class="entity" id="isScaleReversed">
+  <h3>is scale reversed<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://w3id.org/heat#isScaleReversed</p>
+  <div class="comment">
+   <span class="markdown">This property represents a Likert Answer whose meaning is reversed compared to the meaning of a construct, in the measurement or evaluation of a specific aspect.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#LikertAnswer" title="https://w3id.org/heat#LikertAnswer">Likert Answer</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="http://www.w3.org/2001/XMLSchema#boolean" target="_blank" title="http://www.w3.org/2001/XMLSchema#boolean">boolean</a>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <div class="entity" id="numericalValueRange">
+  <h3>numerical value range<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://w3id.org/heat#numericalValueRange</p>
+  <div class="comment">
+   <span class="markdown">This property represents an ordered numerical range in which a Likert Answer is defined.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#LikertAnswer" title="https://w3id.org/heat#LikertAnswer">Likert Answer</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="http://www.w3.org/2001/XMLSchema#string" target="_blank" title="http://www.w3.org/2001/XMLSchema#string">string</a>
+    </dd>
+   </dl>
+  </div>
+ </div>
+ <div class="entity" id="https://w3id.org/survey-ontology#questionText">
+  <h3>question text<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://w3id.org/survey-ontology#questionText</p>
+ </div>
+ <div class="entity" id="textualValueRange">
+  <h3>textual value range<sup class="type-dp" title="data property">dp</sup> <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a> </span></h3>
+  <p><strong>IRI:</strong> https://w3id.org/heat#textualValueRange</p>
+  <div class="comment">
+   <span class="markdown">This property represents an ordered textual range in which a Likert Answer is defined.</span>
+  </div>
+  <div class="description">
+   <dl>
+    <dt>
+     has domain
+    </dt>
+    <dd>
+     <a href="#LikertAnswer" title="https://w3id.org/heat#LikertAnswer">Likert Answer</a> <sup class="type-c" title="class">c</sup>
+    </dd>
+    <dt>
+     has range
+    </dt>
+    <dd>
+     <a href="http://www.w3.org/2001/XMLSchema#string" target="_blank" title="http://www.w3.org/2001/XMLSchema#string">string</a>
+    </dd>
+   </dl>
+  </div>
+ </div>
+</div><div id="legend">
+<h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<div   class="entity">
+<sup class="type-c" title="Classes">c</sup>: Classes <br/>
+<sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
+<sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+</div>
+</div>

@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:bibo="http://purl.org/ontology/bibo/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:mod="https://w3id.org/mod#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:schema="https://schema.org/"
+   xmlns:vann="http://purl.org/vocab/vann/"
+>
+  <rdf:Description rdf:about="http://www.w3.org/ns/prov#wasDerivedFrom">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>was derived from</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/heat#hasModelDiagram">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">This property represents the reference to the tool's graphical visualisation.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>has model diagram</rdfs:label>
+    <rdfs:domain rdf:resource="https://w3id.org/heat#Tool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/isReferencedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>is referenced by</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/heat">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:label>Human Evaluation and Assessment Tools (HEAT) Ontology</rdfs:label>
+    <dcterms:creator rdf:resource="https://orcid.org/0000-0001-9962-7193"/>
+    <dcterms:creator rdf:resource="https://orcid.org/0000-0002-9066-1229"/>
+    <dcterms:issued>2025-11-17</dcterms:issued>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:publisher rdf:resource="https://ror.org/046bfkz44"/>
+    <dcterms:title>Human Evaluation and Assessment Tools (HEAT) Ontology</dcterms:title>
+    <bibo:status xml:lang="en">Published Ontology</bibo:status>
+    <vann:preferredNamespacePrefix>heat</vann:preferredNamespacePrefix>
+    <vann:preferredNamespaceUri>https://w3id.org/heat#</vann:preferredNamespaceUri>
+    <owl:versionIRI rdf:resource="https://w3id.org/heat/1.0.0"/>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <schema:citation>Azzini, A., Celino, I. (2025). Human Evaluation and Assessment Tools (HEAT) Ontology.</schema:citation>
+    <schema:funding rdf:resource="https://doi.org/10.3030/101120323"/>
+    <mod:createdWith rdf:resource="https://chowlk.linkeddata.es/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/heat#refersToGeneralConstruct">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">This property links a Construct to its General Construct.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>refers to general construct</rdfs:label>
+    <rdfs:domain rdf:resource="https://w3id.org/heat#Construct"/>
+    <rdfs:range rdf:resource="https://w3id.org/heat#GeneralConstruct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/heat#hasLikertAnswer">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">This property links a Question to its Likert Answer.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>has likert answer</rdfs:label>
+    <rdfs:domain rdf:resource="https://w3id.org/survey-ontology#Question"/>
+    <rdfs:range rdf:resource="https://w3id.org/heat#LikertAnswer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/heat#textualValueRange">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">This property represents an ordered textual range in which a Likert Answer is defined.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>textual value range</rdfs:label>
+    <rdfs:domain rdf:resource="https://w3id.org/heat#LikertAnswer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/heat#isOriginal">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">This property represents whether a tool is validated as a standard, i.e. whose constructs and questions have not been defined based on another reference tool, or not.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>is original</rdfs:label>
+    <rdfs:domain rdf:resource="https://w3id.org/heat#Tool"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/heat#LikertAnswer">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A Likert Answer is a subjective response format in which a user selects a point on an ordered categorical scale to indicate the intensity or extent of his/her perception, evaluation, or experience regarding a given item.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Likert Answer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionIRI">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/heat#hasContext">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">This property links a Tool to its Context.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>has context</rdfs:label>
+    <rdfs:domain rdf:resource="https://w3id.org/heat#Tool"/>
+    <rdfs:range rdf:resource="https://w3id.org/heat#Context"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/heat#refersToTheory">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>refers to theory</rdfs:label>
+    <rdfs:domain rdf:resource="https://w3id.org/heat#Tool"/>
+    <rdfs:range rdf:resource="https://w3id.org/heat#ReferenceTheory"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/heat#isScaleReversed">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">This property represents a Likert Answer whose meaning is reversed compared to the meaning of a construct, in the measurement or evaluation of a specific aspect.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>is scale reversed</rdfs:label>
+    <rdfs:domain rdf:resource="https://w3id.org/heat#LikertAnswer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/heat#GeneralConstruct">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A General Construct is a generalised concept that serves as a reference point for aggregating all related constructs from different tools, enabling the systematic organisation and comparison of equivalent constructs in different contexts.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>General Construct</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/bibo/Document">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Document</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#versionInfo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/citation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/survey-ontology#questionText">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>question text</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/heat#hasQuestion">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">This property links a Construct to its Question.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>has question</rdfs:label>
+    <rdfs:domain rdf:resource="https://w3id.org/heat#Construct"/>
+    <rdfs:range rdf:resource="https://w3id.org/survey-ontology#Question"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/heat#Tool">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A Tool is a structured conceptual system that explains phenomena by specifying key constructs and the relationships between them; each tool is defined by a set of constructs, which are defined through a series of measurement elements (questions) that allow for an objective evaluation of the phenomenon analysed by the tool.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Tool</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/heat#Construct">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A Construct is a concept defined to represent specific attributes in a given context. A construct is defined by a series of questions used to measure and evaluate these specific aspects quantitatively.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Construct</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/ontology/bibo/status">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/publisher">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/survey-ontology#Question">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Question</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/heat#numericalValueRange">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">This property represents an ordered numerical range in which a Likert Answer is defined.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:label>numerical value range</rdfs:label>
+    <rdfs:domain rdf:resource="https://w3id.org/heat#LikertAnswer"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/heat#Context">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A Context is the specific environment, application domain, or scenario in which a tool or a construct is applied, providing the situational framework that influences how concepts are interpreted, measured, and utilized.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Context</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/creator">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/heat#ReferenceTheory">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">A Reference Theory is a standardized, conceptual theory that aggregates related tools, models, or variants under a unified theoretical structure. It serves as the canonical reference point to which all specific implementations or adaptations (tools/models) are linked.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Reference Theory</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/license">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://w3id.org/heat#hasConstruct">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">This property links a Tool to its Construct.</rdfs:comment>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label>has construct</rdfs:label>
+    <rdfs:domain rdf:resource="https://w3id.org/heat#Tool"/>
+    <rdfs:range rdf:resource="https://w3id.org/heat#Construct"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/issued">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/dc/terms/title">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://schema.org/funding">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+</rdf:RDF>
+
